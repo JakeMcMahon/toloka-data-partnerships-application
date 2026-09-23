@@ -22,7 +22,7 @@
   }
   html, body { background: var(--paper); color: var(--ink); }
   body { font-family: var(--sans); font-size: 9.35pt; line-height: 1.42; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-  .sheet { width: 210mm; height: 297mm; padding: 39px 52px 35px; background: var(--paper); overflow: hidden; break-after: page; page-break-after: always; }
+  .sheet { width: 210mm; height: 297mm; padding: 38px 52px 32px; background: var(--paper); overflow: hidden; break-after: page; page-break-after: always; }
   .sheet:last-child { break-after: auto; page-break-after: auto; }
   header { border-bottom: 2px solid var(--ink); padding-bottom: 12px; margin-bottom: 16px; }
   h1 { font-family: var(--serif); font-size: 25pt; line-height: .98; letter-spacing: -.025em; color: var(--ink); }
@@ -32,7 +32,7 @@
   .continuation { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 10px; margin-bottom: 15px; }
   .continuation h1 { font-size: 15pt; letter-spacing: -.018em; }
   .continuation p { font: 7.2pt/1.2 var(--mono); text-transform: uppercase; letter-spacing: .1em; color: var(--accent); }
-  h2 { margin: 17px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--rule-hard); font: 7.8pt/1.2 var(--mono); text-transform: uppercase; letter-spacing: .14em; color: var(--ink-3); }
+  h2 { margin: 14px 0 7px; padding-bottom: 4px; border-bottom: 1px solid var(--rule-hard); font: 7.8pt/1.2 var(--mono); text-transform: uppercase; letter-spacing: .14em; color: var(--ink-3); }
   h2:first-of-type { margin-top: 0; }
   .lede { max-width: 61ch; font: 11.2pt/1.38 var(--serif); color: var(--ink-2); }
   .lede strong, .copy strong { color: var(--ink); font-weight: 600; }
@@ -45,12 +45,15 @@
   ul { list-style: none; max-width: 64ch; color: var(--ink-2); }
   li { position: relative; padding-left: 15px; margin-bottom: 3px; }
   li::before { content: ""; position: absolute; left: 0; top: .68em; width: 8px; height: 1px; background: var(--rule-hard); }
+  ul.eng { margin: 2px 0 0 4px; }
+  ul.eng li { padding-left: 15px; font-size: 9.05pt; margin-bottom: 2px; }
+  ul.eng b { color: var(--ink); font-weight: 600; }
   .facts { columns: 2; column-gap: 24px; max-width: none; }
   .facts li { break-inside: avoid; margin-bottom: 6px; }
   .copy { max-width: 65ch; color: var(--ink-2); }
   .copy + .copy { margin-top: 4px; }
   .compact li { margin-bottom: 4px; }
-  footer { margin-top: 17px; padding-top: 9px; border-top: 2px solid var(--ink); font: 7.35pt/1.35 var(--mono); color: var(--ink-3); }
+  footer { margin-top: 12px; padding-top: 8px; border-top: 2px solid var(--ink); font: 7.35pt/1.35 var(--mono); color: var(--ink-3); }
   @media screen { .sheet { margin: 0 auto 20px; box-shadow: 0 2px 14px rgba(53,48,43,.08); } }
 </style>
 </head>
@@ -60,13 +63,13 @@
       <header>
         <h1>Jake McMahon</h1>
         <p class="role-line">Business Development &amp; Data Partnerships · Freelance B2B · Remote</p>
-        <p class="contact"><strong>jake@productquant.dev</strong> · linkedin.com/in/jake-mcmahon-product-ai · jakemcmahon.xyz · based in Tbilisi · Asia, Europe, MENA &amp; US time zones · sells into APAC too</p>
+        <p class="contact"><strong>linkedin.com/in/jake-mcmahon-product-ai</strong> · based in Tbilisi · Asia, Europe, MENA &amp; US time zones · sells into APAC too</p>
       </header>
 
       <h2>Summary</h2>
       <p class="lede">B2B partnerships lead who has closed complex work from <strong>$100K/year to $100K/month</strong>, built outbound machinery to source and qualify prospects at scale, and carried accounts from first call through delivery and renewal. Brings working fluency in AI, data, and their regulatory environment to build Toloka’s data-partnerships function from zero.</p>
 
-      <h2>The selling record</h2>
+      <h2>Experience</h2>
       <article class="role">
         <div class="role-head">
           <p class="role-title">Head of Product Marketing &amp; AI <span class="company">· Queue, product + agency backed by Sarona Ventures</span></p>
@@ -85,8 +88,14 @@
           <p class="when">2024–present</p>
         </div>
         <ul>
-          <li>Personally sell and close <strong>$16K–$35K</strong> engagements end to end: offer, deck, calls, close, delivery and customer success. Clients include FormDR, Scale Insights and DialMyCalls.</li>
-          <li>Adapt the pitch to the structure holding the pen: a one-call founder decision, multi-layered committee or flat board; carry deals through legal and procurement.</li>
+          <li>Personally sell and close <strong>$16K–$35K</strong> engagements end to end: offer, deck, calls, close, delivery and customer success. Adapt the pitch to whoever holds the pen — a one-call founder decision, a multi-layered committee or a flat board — carrying deals through legal and procurement.</li>
+        </ul>
+        <ul class="eng">
+          <li><b>FormDR</b> · healthcare SaaS (HIPAA): measurement rebuilt around JTBD; PostHog; churn and onboarding in Chameleon; email flows in Customer.io; 20+ competitor teardown; roadmap from 60 recorded sales calls.</li>
+          <li><b>Scale Insights</b> · Amazon-PPC SaaS: analytics in Amplitude; dashboards generated from code (<b>2,100 lines, 39 charts</b>); nine statistical tests, nulls included.</li>
+          <li><b>DialMyCalls</b> · mass-notification SaaS: first behavioural baseline from owned data; onboarding smoothed within US 10DLC rules.</li>
+          <li><b>Timelines AI</b> · analytics framework; A/B-tested changes credited with a <b>six-figure revenue lift</b>, proven statistically with Python.</li>
+          <li><b>Pace Pricing</b> · pricing-tier architecture based on JTBD and product usage, aimed at raising CLV.</li>
         </ul>
       </article>
 
@@ -104,8 +113,29 @@
     <section class="sheet">
       <div class="continuation">
         <h1>Jake McMahon</h1>
-        <p>Capability evidence · continued</p>
+        <p>Experience · continued</p>
       </div>
+
+      <h2>Experience</h2>
+      <article class="role">
+        <div class="role-head">
+          <p class="role-title">Head of Growth &amp; Interim CTO <span class="company">· HackingHR</span></p>
+          <p class="when">2024–2025</p>
+        </div>
+        <ul class="compact">
+          <li>Grew the LinkedIn community <strong>800K → 1M+</strong>, the largest and fastest-growing HR community; email opens <strong>18% → 35–50%</strong>.</li>
+          <li>Interim CTO: modernized the stack and AI infrastructure; cut AWS spend <strong>30%</strong>; cut churn <strong>30%</strong> with a ranked model; <strong>$300K</strong> sponsorship revenue. Founder will vouch.</li>
+        </ul>
+      </article>
+      <article class="role">
+        <div class="role-head">
+          <p class="role-title">Partner-side GTM &amp; Analytics <span class="company">· Net Atelier</span></p>
+          <p class="when">2024–2026</p>
+        </div>
+        <ul class="compact">
+          <li>Investor-side rescue: after prior developers deleted the codebase at the end of runway, directed the team to an MVP that <strong>soft-launched with a competitive feature set</strong>; board GTM deck, 30 claims checked (6 corrected), financial model within <strong>8%</strong> of industry benchmarks.</li>
+        </ul>
+      </article>
 
       <h2>AI, data &amp; regulatory fluency</h2>
       <ul class="compact">
@@ -113,16 +143,6 @@
         <li>Own a slice of <strong>Tasq AI GTM (AEO / GEO / SEO)</strong>, covering AI and data regulation, how operational data becomes useful to its owner, and robotics and physical AI.</li>
         <li>Ran a 90-day AI-search programme across Tasq, CYE, Spikerz and Willow: <strong>96 published pieces</strong>, a <strong>197-rule</strong> quality system, and a move from <strong>0 of 57</strong> buyer questions citing the brand to <strong>#1 rankings</strong>.</li>
         <li>Built an <strong>NLP pipeline analysing 100K support tickets</strong>; A/B-tested fintech ads and landed on Facebook by a wide margin.</li>
-      </ul>
-
-      <h2>Supporting proof</h2>
-      <ul class="facts">
-        <li><strong>HackingHR</strong> · Head of Growth &amp; Interim CTO: LinkedIn <strong>800K → 1M+</strong>; email opens <strong>18% → 35–50%</strong>; AWS −30%, churn −30%; <strong>$300K</strong> sponsorship. Founder will vouch.</li>
-        <li><strong>FormDR</strong> · Healthcare SaaS (HIPAA): JTBD measurement, PostHog, Chameleon churn/onboarding, Customer.io flows, 20+ competitor teardown, and a roadmap drawn from 60 recorded sales calls.</li>
-        <li><strong>Net Atelier</strong> · Investor-side rescue: directed the team to an MVP that soft-launched with a competitive feature set; board GTM deck, 30 claims checked (6 corrected), financial model within <strong>8%</strong> of industry benchmarks.</li>
-        <li><strong>Scale Insights</strong> · Amplitude analytics and code-generated dashboards: <strong>2,100 lines</strong>, <strong>39 charts</strong>, nine statistical tests, including nulls.</li>
-        <li><strong>Timelines AI</strong> · Analytics framework; A/B-tested changes credited with a <strong>six-figure revenue lift</strong>, proven statistically with Python.</li>
-        <li><strong>Pace Pricing</strong> · Pricing-tier architecture informed by JTBD and product usage, aimed at raising CLV.</li>
       </ul>
 
       <h2>Education</h2>
@@ -133,7 +153,7 @@
       <p class="copy">English native · Russian B2 · based in Tbilisi · covers Asia, Europe, MENA and US time zones, with APAC selling experience despite limited overlap. Remote work across AU, AM, GE, BG, IL, TR, RO and MD.</p>
       <p class="copy">Worked with teams across Asia, North America, Europe, MENA and LATAM; travelled across these regions plus Australia and New Zealand.</p>
 
-      <footer>jake@productquant.dev · linkedin.com/in/jake-mcmahon-product-ai · jakemcmahon.xyz</footer>
+      <footer>linkedin.com/in/jake-mcmahon-product-ai</footer>
     </section>
   </main>
 </body>
