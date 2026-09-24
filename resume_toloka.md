@@ -17,7 +17,7 @@ Closes unfamiliar B2B offers and builds the acquisition motion around them. Pers
 - **Turn an initial commercial conversation into signed, delivered work** in a two-to-three-person team: personally sell and close $16K-$35K engagements from offer through delivery and customer success, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement.
 
 Engagements under Flow:
-- **FormDR** (healthcare, HIPAA) — rebuilt measurement around buyer and clinician progress, not button clicks, so sales, CS and product worked from the same picture; 60 recorded sales calls ranked the roadmap; no patient data left the product's event stream.
+- **FormDR** (healthcare, HIPAA) — rebuilt measurement around buyer and clinician progress, not button clicks, so sales, CS and product worked from the same picture; 60 recorded sales calls ranked the roadmap; no patient data left the product's event stream. Built a churn-prevention and win-back system (onboarding, churn and downgrade flows) whose impact we estimate from how well such methods perform against FormDR's known churn baseline.
 - **Scale Insights** (Amazon-PPC SaaS) — replaced hand-built reporting with governed definitions and corrected over-counting, so activation and funnel decisions became trustworthy.
 - **DialMyCalls** (mass notifications) — built the company's first behavioural baseline from data it already owned, and smoothed onboarding for new users starting out on SMS sending within US business-texting (10DLC) rules.
 - **Timelines AI** — made core-integration changes measurable; A/B-tested changes the client credits with a six-figure revenue lift.

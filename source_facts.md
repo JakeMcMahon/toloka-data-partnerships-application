@@ -27,6 +27,7 @@
 - OLD: Churn flow answering "not enough features" with features competitors lack.
 - OLD: Kept PHI out of every event; roadmap grounded in 60 recorded sales calls.
 - NEW: JTBD + customer-journey events/analytics strategy implemented in PostHog; dashboard revamp on activation/expansion/monetization; 'happy path' activation improved; legacy-user migration strategy; churn prevention + onboarding in Chameleon; email flows in Customer.io.
+- FRAMING RULE (user 2026-09-24): Chameleon savings (~$10.2K from 16→3 workspace consolidation) is a SUBSCRIPTION/tier reduction ONLY — getting them on a lower plan. It is NOT the impact number. Do NOT present it as churn impact. The real value is the CHURN-PREVENTION system that was built (churn-prevention + win-back methods). Its impact is an ESTIMATE only: how well churn prevention + win-back methods work, applied to their known churn baseline. Never quote a realized churn figure from this work.
 
 ## Scale Insights (2024–2025, Amazon-PPC SaaS)
 - OLD: Code-generated dashboards (2,100 lines, 39 charts); nine statistical tests (reported nulls); fixed over-counting funnels.
