@@ -3,9 +3,9 @@
 **Jake McMahon** · Cover Letter · Freelance Data Partnerships Lead
 LinkedIn: linkedin.com/in/jake-mcmahon-product-ai · based in Tbilisi · Asia, Europe, MENA & US time zones
 
-To **Olga Megorskaya** · Founder & CEO, Toloka AI
+To the Hiring Team · Toloka AI
 
-Dear Olga,
+Dear Hiring Team,
 
 I have spent the last few years selling a similar proposition from the other side, taking an unfamiliar B2B offer, making it understandable to a buyer who has never bought it before, and carrying it from a cold conversation to a signed, delivered contract. At Queue I personally closed most $15K-$30K engagements and worked in the core team on larger work from $100K/year to $100K/month, and monday.com re-signed multiple times and expanded into its developer-platform launch through point-of-contact changes and internal reshuffles. At Flow, a two-to-three-person studio, I personally sold $16K-$35K engagements from offer through close, delivery and retention, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement. I have not sold operational data partnerships yet. What I have done is negotiate contracts, handle regulated data under HIPAA, and sell from owner to procurement.
 
