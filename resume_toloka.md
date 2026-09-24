@@ -9,7 +9,7 @@ Closes unfamiliar B2B offers and builds the acquisition motion around them. Pers
 ## Experience
 
 ### Head of Product Marketing & AI | Queue (product + agency, venture-backed), 2022-2025
-- **Re-signed monday.com multiple times**, expanded into its developer-platform launch, and held the account through proof-of-concept changes and internal reshuffles, turning it into a durable, growing client rather than a one-off win. Other clients: Guardio (1.5M+ users), CirclesUp, 8fig, thirdweb, NewDayUSA.
+- **Re-signed monday.com multiple times**, expanded into its developer-platform launch, and held the account through point-of-contact changes and internal reshuffles, turning it into a durable, growing client rather than a one-off win. Other clients: Guardio (1.5M+ users), CirclesUp, 8fig, thirdweb, NewDayUSA.
 - **Built and sold AI products**: AI voice interviews that turn experts into thought-leadership content, and a LinkedIn audience-growth product (with venture studio 25 Madison), then carried the promise through delivery and customer success.
 - **Personally sold and closed most $15K-$30K engagements**, and worked in the core team on the broader $100K/month deal. Ran product and sales on the product side, the content team on the agency side.
 
