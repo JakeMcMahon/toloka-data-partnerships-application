@@ -19,7 +19,7 @@ Closes unfamiliar B2B offers and builds the acquisition motion around them. Pers
 Engagements under Flow:
 - **FormDR** (healthcare, HIPAA) — rebuilt measurement around buyer and clinician progress, not button clicks, so sales, CS and product worked from the same picture; 60 recorded sales calls ranked the roadmap; no patient data left the product's event stream.
 - **Scale Insights** (Amazon-PPC SaaS) — replaced hand-built reporting with governed definitions and corrected over-counting, so activation and funnel decisions became trustworthy.
-- **DialMyCalls** (mass notifications) — gave a product with no behavioural view its first reliable baseline, smoothed US business-texting (10DLC) onboarding, and surfaced the missing segmentation blocking attribution work for two-thirds of active users.
+- **DialMyCalls** (mass notifications) — built the company's first behavioural baseline from data it already owned, and smoothed onboarding for new users starting out on SMS sending within US business-texting (10DLC) rules.
 - **Timelines AI** — made core-integration changes measurable; A/B-tested changes the client credits with a six-figure revenue lift.
 
 ## Outbound machinery
