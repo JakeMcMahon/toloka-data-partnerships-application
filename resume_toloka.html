@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jake McMahon | Data Partnerships CV</title>
 <style>
-/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V3 · genre: editorial · macrostructure: Long Document · tone: warm, exact, commercially assured · anchor hue: oxide red · enrichment: none · contrast: pass (46-50) · print-document structure retained at user request */
-  @import url("tokens.css");
   @page { size: A4; margin: 0; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -17,45 +15,45 @@
     --rule: #D3CCC0;
     --rule-strong: #9F9687;
     --accent: #A93A28;
-    --serif: "Bitstream Charter", Charter, "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --serif: "Bitstream Charter", Charter, Georgia, "Palatino Linotype", Palatino, "Liberation Serif", serif;
     --sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     --mono: "Liberation Mono", "DejaVu Sans Mono", Menlo, Consolas, monospace;
   }
   html, body { background: var(--paper); color: var(--ink); overflow-x: clip; }
-  body { font-family: var(--sans); font-size: 8.65pt; line-height: 1.5; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-  .sheet { width: 210mm; height: 297mm; padding: 42px 48px 38px; background: var(--paper); overflow: hidden; break-after: page; page-break-after: always; }
+  body { font-family: var(--sans); font-size: 8.6pt; line-height: 1.48; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  .sheet { width: 210mm; height: 297mm; padding: 36px 48px 30px; background: var(--paper); overflow: hidden; break-after: page; page-break-after: always; }
   .sheet:last-child { break-after: auto; page-break-after: auto; }
-  header { border-bottom: 2px solid var(--ink); padding-bottom: 14px; margin-bottom: 18px; }
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 12px; margin-bottom: 15px; }
   h1, h2 { min-width: 0; overflow-wrap: anywhere; }
-  h1 { font-family: var(--serif); font-size: 25pt; line-height: .98; letter-spacing: -.025em; }
-  .role-line { margin-top: 9px; color: var(--accent); font: 7.8pt/1.25 var(--mono); letter-spacing: .11em; text-transform: uppercase; }
-  .contact, .mini-meta { margin-top: 9px; color: var(--ink-muted); font: 7pt/1.35 var(--mono); letter-spacing: .01em; text-transform: uppercase; }
+  h1 { font-family: var(--serif); font-size: 24pt; line-height: .98; letter-spacing: -.025em; }
+  .role-line { margin-top: 8px; color: var(--accent); font: 7.6pt/1.25 var(--mono); letter-spacing: .11em; text-transform: uppercase; }
+  .contact, .mini-meta { margin-top: 8px; color: var(--ink-muted); font: 6.9pt/1.35 var(--mono); letter-spacing: .01em; text-transform: uppercase; }
   .contact strong { color: var(--ink-soft); font-weight: 600; }
-  .continuation { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 11px; margin-bottom: 16px; }
-  .continuation h1 { font-size: 15pt; letter-spacing: -.018em; }
+  .continuation { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 10px; margin-bottom: 14px; }
+  .continuation h1 { font-size: 14pt; letter-spacing: -.018em; }
   .continuation p { color: var(--accent); font: 7.1pt/1.2 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
-  h2 { margin: 17px 0 9px; padding-bottom: 5px; border-bottom: 1px solid var(--rule-strong); color: var(--ink-muted); font: 7.6pt/1.2 var(--mono); letter-spacing: .14em; text-transform: uppercase; }
+  h2 { margin: 14px 0 7px; padding-bottom: 4px; border-bottom: 1px solid var(--rule-strong); color: var(--ink-muted); font: 7.5pt/1.2 var(--mono); letter-spacing: .14em; text-transform: uppercase; }
   h2:first-of-type { margin-top: 0; }
-  .lede { max-width: 64ch; color: var(--ink-soft); font: 10.8pt/1.45 var(--serif); }
+  .lede { max-width: 64ch; color: var(--ink-soft); font: 10.6pt/1.42 var(--serif); }
   strong, b { color: var(--ink); font-weight: 650; }
-  .role { border-top: 1px solid var(--rule); padding: 11px 0 12px; }
-  .role:first-of-type { border-top: 0; padding-top: 2px; }
-  .role-head { display: flex; justify-content: space-between; align-items: baseline; gap: 11px; margin-bottom: 6px; }
-  .role-title { color: var(--ink); font: 10.7pt/1.2 var(--serif); }
-  .company { color: var(--ink-muted); font: italic 8.65pt/1.2 var(--sans); }
-  .when { flex: none; color: var(--ink-muted); font: 6.95pt/1.2 var(--mono); letter-spacing: .075em; text-transform: uppercase; white-space: nowrap; }
-  ul { max-width: 67ch; list-style: none; color: var(--ink-soft); }
-  li { position: relative; padding-left: 14px; margin-bottom: 5px; }
-  li::before { content: ""; position: absolute; left: 0; top: .72em; width: 7px; height: 1px; background: var(--rule-strong); }
-  ul.eng { margin: 5px 0 0 4px; }
-  ul.eng li { padding-left: 14px; margin-bottom: 4px; font-size: 8.55pt; }
-  .compact li { margin-bottom: 5px; }
-  .copy { max-width: 67ch; color: var(--ink-soft); }
-  .copy + .copy { margin-top: 6px; }
-  footer { margin-top: 4px; padding-top: 5px; border-top: 2px solid var(--ink); color: var(--ink-muted); font: 7.1pt/1.35 var(--mono); }
-  .sheet:nth-of-type(2) { font-size: 8.45pt; }
-  .sheet:nth-of-type(2) h2 { margin-top: 14px; margin-bottom: 8px; }
-  .sheet:nth-of-type(2) .role { padding-top: 9px; padding-bottom: 9px; }
+  .role { border-top: 1px solid var(--rule); padding: 9px 0 10px; }
+  .role:first-of-type { border-top: 0; padding-top: 1px; }
+  .role-head { display: flex; justify-content: space-between; align-items: baseline; gap: 11px; margin-bottom: 5px; }
+  .role-title { color: var(--ink); font: 10.5pt/1.2 var(--serif); }
+  .company { color: var(--ink-muted); font: italic 8.5pt/1.2 var(--sans); }
+  .when { flex: none; color: var(--ink-muted); font: 6.8pt/1.2 var(--mono); letter-spacing: .075em; text-transform: uppercase; white-space: nowrap; }
+  ul { max-width: 66ch; list-style: none; color: var(--ink-soft); }
+  li { position: relative; padding-left: 14px; margin-bottom: 4px; }
+  li::before { content: ""; position: absolute; left: 0; top: .7em; width: 7px; height: 1px; background: var(--rule-strong); }
+  ul.eng { margin: 4px 0 0 4px; }
+  ul.eng li { padding-left: 14px; margin-bottom: 3px; font-size: 8.45pt; }
+  .compact li { margin-bottom: 4px; }
+  .copy { max-width: 66ch; color: var(--ink-soft); }
+  .copy + .copy { margin-top: 5px; }
+  footer { margin-top: 3px; padding-top: 4px; border-top: 2px solid var(--ink); color: var(--ink-muted); font: 7pt/1.35 var(--mono); }
+  .sheet:nth-of-type(2) { font-size: 8.35pt; }
+  .sheet:nth-of-type(2) h2 { margin-top: 12px; margin-bottom: 7px; }
+  .sheet:nth-of-type(2) .role { padding-top: 8px; padding-bottom: 8px; }
   @media screen { .sheet { margin: 0 auto 22px; box-shadow: 0 2px 14px rgba(53,48,43,.08); } }
   @media screen and (max-width: 800px) { .sheet { width: 100%; height: auto; min-height: 297mm; padding: 34px 24px; } .role-head { align-items: flex-start; flex-direction: column; gap: 3px; } .when { white-space: normal; } }
 </style>
@@ -66,46 +64,46 @@
       <header>
         <h1>Jake McMahon</h1>
         <p class="role-line">Business Development &amp; Data Partnerships · Freelance B2B · Remote</p>
-        <p class="contact"><strong>linkedin.com/in/jake-mcmahon-product-ai</strong> · based in Tbilisi · Asia, Europe, MENA &amp; US time zones · sells into APAC too</p>
+        <p class="contact"><strong>linkedin.com/in/jake-mcmahon-product-ai</strong> · based in Tbilisi · Asia, Europe, MENA &amp; US time zones</p>
       </header>
 
       <h2>Summary</h2>
-      <p class="lede">Closes unfamiliar B2B offers and builds the partner-acquisition motion around them. Personally sells $16K-$35K engagements, has helped close work from <strong>$100K/year to $100K/month</strong>, and can make an AI, data or regulated-product proposition clear to an operator who has not bought or sold it before.</p>
+      <p class="lede">Closes unfamiliar B2B offers and builds the acquisition motion around them. Personally sells <strong>$16K-$35K</strong> engagements, has worked in the core team on deals from <strong>$100K/year to $100K/month</strong>, and can make an AI, data or regulated-product proposition clear to an operator who has not bought or sold it before. Applying that commercial motion to data partnerships.</p>
 
       <h2>Experience</h2>
       <article class="role">
         <div class="role-head">
-          <p class="role-title">Head of Product Marketing &amp; AI <span class="company">· Queue, product + agency backed by Sarona Ventures</span></p>
+          <p class="role-title">Head of Product Marketing &amp; AI <span class="company">· Queue (product + agency, venture-backed)</span></p>
           <p class="when">2022-present</p>
         </div>
         <ul>
-          <li><strong>Turned unfamiliar AI products into work clients could buy, use and renew</strong> for monday.com, Guardio (1.5M+ users), CirclesUp, 8fig, thirdweb and NewDayUSA. Built and sold AI voice interviews and a LinkedIn audience-growth product with 25 Madison.</li>
-          <li><strong>Made monday.com a durable, expanding account rather than a one-off win</strong>, re-signing it multiple times, expanding into the monday dev GTM launch, and holding the relationship through POC changes and internal-team reshuffles.</li>
-          <li><strong>Joined product, sale and delivery into one accountable commercial motion</strong>, personally selling and closing most $15K-$30K engagements and contributing to the broader team's $100K/month deal. Shipped custom AI products and repaired in-app search so the sale held up in the product.</li>
+          <li><strong>Re-signed monday.com multiple times</strong>, expanded into its developer-platform launch, and held the account through POC changes and internal reshuffles — a durable, growing client rather than a one-off win. Other clients: Guardio (1.5M+ users), CirclesUp, 8fig, thirdweb, NewDayUSA.</li>
+          <li><strong>Built and sold AI products</strong> — AI voice interviews that turn experts into thought-leadership content, and a LinkedIn audience-growth product (with venture studio 25 Madison) — then carried the promise through delivery and customer success.</li>
+          <li><strong>Personally sold and closed most $15K-$30K engagements</strong>, and worked in the core team on the broader $100K/month deal. Ran product and sales on the product side, the content team on the agency side.</li>
         </ul>
       </article>
 
       <article class="role">
         <div class="role-head">
-          <p class="role-title">Growth &amp; Sales <span class="company">· Flow, theuserflow.co</span></p>
+          <p class="role-title">Growth &amp; Sales <span class="company">· Flow (theuserflow.co)</span></p>
           <p class="when">2024-present</p>
         </div>
         <ul>
-          <li><strong>Turn an initial commercial conversation into lasting, results-backed work</strong> in a two-to-three-person team. Personally sell and close $16K-$35K engagements from offer through delivery and customer success; clients stay six months or more. Adapt the sale from a one-call founder to a committee or board, then carry it through legal and procurement.</li>
+          <li><strong>Turn an initial commercial conversation into signed, delivered work</strong> in a two-to-three-person team: personally sell and close $16K-$35K engagements from offer through delivery and customer success, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement.</li>
         </ul>
         <ul class="eng">
-          <li><b>FormDR</b> · changed measurement from button clicks to buyer and clinician progress, separating the two groups so sales, CS and product worked from the same picture. Competitor findings and 60 sales calls made the roadmap and churn conversation specific, with no PHI in events.</li>
-          <li><b>Scale Insights</b> · replaced hand-built reporting with governed definitions and corrected over-counting, so activation and funnel decisions became trustworthy.</li>
-          <li><b>DialMyCalls</b> · gave a product with no behavioural view its first reliable baseline, smoothing US 10DLC onboarding and revealing the missing segmentation blocking attribution and churn work for two-thirds of active users.</li>
-          <li><b>Timelines AI</b> · made core-integration changes measurable and validated them through A/B tests that the client credits with a six-figure revenue lift.</li>
+          <li><b>FormDR</b> (healthcare, HIPAA) — rebuilt measurement around buyer and clinician progress, not button clicks, so sales, CS and product worked from the same picture; 60 recorded sales calls ranked the roadmap; no patient data left the product's event stream.</li>
+          <li><b>Scale Insights</b> (Amazon-PPC SaaS) — replaced hand-built reporting with governed definitions and corrected over-counting, so activation and funnel decisions became trustworthy.</li>
+          <li><b>DialMyCalls</b> (mass notifications) — gave a product with no behavioural view its first reliable baseline, smoothed US business-texting (10DLC) onboarding, and surfaced the missing segmentation blocking attribution work for two-thirds of active users.</li>
+          <li><b>Timelines AI</b> — made core-integration changes measurable; A/B-tested changes the client credits with a six-figure revenue lift.</li>
         </ul>
       </article>
 
       <h2>Outbound machinery</h2>
       <ul class="compact">
-        <li><strong>Build contactable partner pools, not lists of names</strong>, through qualification, verification and email-validation pipelines using monid, treg, AI Ark, BounceBan, maps data and residential proxies.</li>
-        <li><strong>Convert a target market into live conversations at scale</strong> with ListKit or custom builds, LinkedIn automation, warmed domains, campaign management and cold calling through Zadarma.</li>
-        <li><strong>Carry a commercial case through to signature</strong> by building sales decks, negotiating, drafting and finalizing contracts, including investor and M&amp;A marketing for European and MENA clients.</li>
+        <li><strong>Built list qualification, validation and deliverability systems</strong> — company-intelligence and contact-verification data, email-validation tooling, and maps-based prospect data — so outreach lands in inboxes, not spam.</li>
+        <li><strong>Convert a target market into live conversations at scale</strong> with list-building and LinkedIn outbound automation, warmed domains, campaign management and cold calling.</li>
+        <li><strong>Carry a commercial case through to signature</strong> — sales decks, negotiation, contract drafting and finalization, including investor and M&amp;A marketing for European and MENA clients.</li>
       </ul>
 
       <footer>Jake McMahon · B2B sales, outbound systems &amp; data partnerships · page 1</footer>
@@ -124,17 +122,17 @@
           <p class="when">2024-2025</p>
         </div>
         <ul class="compact">
-          <li><strong>Took a top-five community to the #1, fastest-growing HR community on LinkedIn</strong>, growing it from 800K to 1M+ followers, lifting email opens from 18% to 35-50%, redesigning the LMS experience and generating $300K in sponsorship revenue.</li>
-          <li><strong>Made growth sustainable by rebuilding the operating backbone beneath it</strong>: modernized the stack, backend and AI infrastructure for stability and uptime; cut AWS spend 30% while improving reliability; and cut churn 30% with a ranked model. Founder Enrique will vouch.</li>
+          <li><strong>Took a top-five community to the #1 fastest-growing HR community on LinkedIn</strong>: 800K to 1M+ followers, email opens 18% to 35-50%, a redesigned course platform, and $300K in sponsorship revenue.</li>
+          <li><strong>Rebuilt the operating backbone beneath the growth</strong>: modernized the stack, backend and AI infrastructure for stability and uptime, cut AWS spend 30% while improving reliability, and cut churn 30% with a ranked model. Founder Enrique will vouch.</li>
         </ul>
       </article>
       <article class="role">
         <div class="role-head">
-          <p class="role-title">Partner-side GTM &amp; Analytics <span class="company">· Net Atelier</span></p>
+          <p class="role-title">Investor-side Product &amp; GTM Advisory <span class="company">· Net Atelier</span></p>
           <p class="when">2024-2026</p>
         </div>
         <ul class="compact">
-          <li><strong>Turned a deleted-codebase, end-of-runway rescue into a soft-launched MVP</strong> with a competitive feature set. Gave investors a defensible route forward through a GTM strategy, three-scenario financial model and competitor view; the model landed within 8% of industry benchmarks.</li>
+          <li><strong>Turned a deleted-codebase, end-of-runway rescue into a soft-launched MVP</strong> with a competitive feature set. Gave investors a defensible route forward — GTM strategy, three-scenario financial model, competitor teardown — landing within 8% of industry benchmarks.</li>
         </ul>
       </article>
 
@@ -142,10 +140,10 @@
       <article class="role">
         <div class="role-head">
           <p class="role-title">Investor Relations &amp; Marketing Lead <span class="company">· Magdalena Reith &amp; LION Private Equity Partners, Munich</span></p>
-          <p class="when">2021-2022</p>
+          <p class="when">Dec 2021 - Nov 2022</p>
         </div>
         <ul class="compact">
-          <li><strong>Turned complex financial information into narratives investors could act on</strong>, helping startups raise from seed to Series A+. Produced investor letters for M&amp;A and energy-project mezzanine financing, investor updates, financial reports and 70-100-page international briefs trusted by government and M&amp;A firms.</li>
+          <li><strong>Turned complex financial information into narratives investors could act on</strong>, helping startups raise from seed to Series A+. Authored investor letters for M&amp;A and energy-project mezzanine financing, investor updates, and 70-100-page international briefs trusted by government and M&amp;A firms.</li>
         </ul>
       </article>
       <article class="role">
@@ -154,22 +152,22 @@
           <p class="when">2019-2021</p>
         </div>
         <ul class="compact">
-          <li><strong>Modernized a 100+ year-old retailer without stopping trade or laying anyone off</strong>, connecting ERP, inventory and CRM data through custom middleware, ETL, AWS Redshift and Lambda. The 30-person team retrained alongside the migration, improving inventory planning and delivering 20% revenue growth.</li>
+          <li><strong>Modernized a 100+ year-old retailer without stopping trade or laying anyone off</strong>, delivering 20% revenue growth while a 30-person team retrained in step with the migration to new ERP, inventory and CRM systems on AWS.</li>
         </ul>
       </article>
 
       <h2>AI, data &amp; regulatory fluency</h2>
       <ul class="compact">
-        <li><strong>Can turn an operational-data opportunity into a clear business and data conversation</strong>, with working knowledge of ML and computer-vision/robotics pipelines, Python, SQL, NLP, scikit-learn, SageMaker and PySpark.</li>
-        <li><strong>Moved four brands from absent in AI answers to cited in them</strong> through Tasq, CYE, Spikerz and Willow's AI-search programme. Starting at 0 of 57 buyer questions citing the brand, three CYE articles now rank #1.</li>
+        <li><strong>Working knowledge of ML and computer-vision/robotics pipelines</strong> from an MSc in Big Data &amp; Business Analytics — enough to explain the business use, data flow and constraints of a data partnership honestly.</li>
+        <li><strong>Ran a four-brand AI-search programme from an honest 0-of-57 baseline</strong> (buyer questions citing the brand) to measurable gains — three client articles now rank #1.</li>
       </ul>
 
       <h2>Education</h2>
-      <p class="copy"><strong>MSc, Big Data &amp; Business Analytics</strong> · Saint Petersburg State University GSOM, 2020-2024. Built a payment-propensity system for a mobile-payments app, benchmarking four algorithms and reaching <strong>0.92 AUC on 1M+ records</strong>.</p>
-      <p class="copy"><strong>BSc, Behavioral Psychology</strong> · Swinburne University of Technology, 2013-2018. The psychology degree shapes the questions; the analytics degree tests the answers.</p>
+      <p class="copy"><strong>MSc, Big Data &amp; Business Analytics</strong> · Saint Petersburg State University, Graduate School of Management, 2020-2024. Thesis: a payment-propensity system for a mobile-payments app — four algorithms benchmarked, <strong>0.92 AUC on 1M+ records</strong>.</p>
+      <p class="copy"><strong>BSc, Behavioral Psychology</strong> · Swinburne University of Technology, 2013-2018.</p>
 
       <h2>Languages &amp; footprint</h2>
-      <p class="copy">English native · Russian B2 · based in Tbilisi · works across Asia, Europe, MENA and US time zones, and sells into APAC despite limited overlap. Remote track record: AU, AM, GE, BG, IL, TR, RO and MD.</p>
+      <p class="copy">English native · Russian B2 · based in Tbilisi · works across Asia, Europe, MENA and US time zones. Remote track record: AU, AM, GE, BG, IL, TR, RO, MD.</p>
 
       <footer>linkedin.com/in/jake-mcmahon-product-ai · page 2</footer>
     </section>
