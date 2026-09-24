@@ -14,7 +14,7 @@ Closes unfamiliar B2B offers and builds the acquisition motion around them. Pers
 - **Personally sold and closed most $15K-$30K engagements**, and worked in the core team on the broader $100K/month deal. Ran product and sales on the product side, the content team on the agency side.
 
 ### Growth & Sales | Flow (theuserflow.co), 2025-2026
-- **Turn an initial commercial conversation into signed, delivered work** in a two-to-three-person team: personally sell and close $16K-$35K engagements from offer through delivery and customer success, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement.
+- **Turned an initial commercial conversation into signed, delivered work** in a two-to-three-person team and personally sold and closed $16K-$35K engagements from offer through delivery and customer success, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement.
 
 Engagements under Flow:
 - **FormDR** (healthcare, HIPAA): rebuilt measurement around buyer and user progress, not button clicks, so sales, customer success and product worked from the same picture; 60 recorded sales calls ranked the roadmap; kept protected health information out of the event stream. Built a churn-prevention and win-back system covering onboarding, churn and downgrade flows.
