@@ -17,7 +17,7 @@ Closes unfamiliar B2B offers and builds the acquisition motion around them. Pers
 - **Turn an initial commercial conversation into signed, delivered work** in a two-to-three-person team: personally sell and close $16K-$35K engagements from offer through delivery and customer success, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement.
 
 Engagements under Flow:
-- **FormDR** (healthcare, HIPAA) — rebuilt measurement around buyer and clinician progress, not button clicks, so sales, CS and product worked from the same picture; 60 recorded sales calls ranked the roadmap; no patient data left the product's event stream. Built a churn-prevention and win-back system (onboarding, churn and downgrade flows) whose impact we estimate from how well such methods perform against FormDR's known churn baseline.
+- **FormDR** (healthcare, HIPAA) — rebuilt measurement around buyer and clinician progress, not button clicks, so sales, CS and product worked from the same picture; 60 recorded sales calls ranked the roadmap; no patient data left the product's event stream. Built a churn-prevention and win-back system covering onboarding, churn and downgrade flows.
 - **Scale Insights** (Amazon-PPC SaaS) — replaced hand-built reporting with governed definitions and corrected over-counting, so activation and funnel decisions became trustworthy.
 - **DialMyCalls** (mass notifications) — built the company's first behavioural baseline from data it already owned, and smoothed onboarding for new users starting out on SMS sending within US business-texting (10DLC) rules.
 - **Timelines AI** — made core-integration changes measurable; A/B-tested changes the client credits with a six-figure revenue lift.
@@ -45,7 +45,7 @@ Engagements under Flow:
 - **Modernized a 100+ year-old retailer without stopping trade or laying anyone off**, delivering 20% revenue growth while a 30-person team retrained in step with the migration to new ERP, inventory and CRM systems on AWS.
 
 ## AI, data & regulatory fluency
-- **Tasq is robotics**: I run GTM, AEO/GEO/SEO and AI-search for Tasq AI — a physical-AI and robotics-data company — writing and shipping research-backed content on robot training-data pipelines and edge cases, with claims traced to primary sources. Directly relevant to Toloka's CV/robotics dataset business.
+- **I run GTM, AEO/GEO/SEO and AI-search for Tasq AI** — a physical-AI and robotics-data company — shipping research-backed content on robot training-data pipelines and edge cases, including on robot-specific failure modes and how robotics training data is built.
 - **Working knowledge of ML and computer-vision/robotics pipelines** from an MSc in Big Data & Business Analytics — enough to explain the business use, data flow and constraints of a data partnership honestly.
 - **Ran a four-brand AI-search programme from an honest 0-of-57 baseline** (buyer questions citing the brand) to measurable gains — three client articles now rank #1.
 
