@@ -75,9 +75,30 @@
 - NEW: The MSc gives working knowledge of ML and computer vision (CV), and the tools used to process data and how it is processed for CV and robotics pipelines — "to a degree" (user-stated honest framing). Mentioned as a benefit in resume + cover letter for Toloka (relevant to data-partnerships + robotics/physical-AI solution space).
 - OLD: BSc Behavioral Psychology, Swinburne University of Technology, 2013–2018.
 
+## REAL TIMELINE (user-stated 2026-09-24 — CORRECTS earlier date ranges)
+- Queue: ended 2025 (NOT "present"). Was Head of Product Marketing & AI; product side stopped when next round didn't close.
+- HackingHR: ran in 2025 (2024–2025 per earlier facts; user emphasizes 2025).
+- theuserflow.co (Flow): 2025–2026.
+- Tasq / CYE / Spikerz / Willow GTM + AEO/GEO/SEO content: 2026.
+- TASQ IS THE HIGHLIGHT for Toloka — it is ROBOTICS (physical AI / robotics data space; directly relevant to Toloka's CV/robotics datasets). Lead with Tasq when describing AI-search/AEO work.
+
 ## Footprint / languages
 - OLD: English native · Russian B2 · based in Tbilisi 🇬🇪, available across time zones.
 - OLD: Worked remotely from AU 🇦🇺 · AM 🇦🇲 · GE 🇬🇪 · BG 🇧🇬 · IL 🇮🇱 · TR 🇹🇷 · RO 🇷🇴 · MD 🇲🇩.
+
+## Investor Relations & Marketing Lead — Magdalena Reith & LION Private Equity Partners (Dec 2021 – Nov 2022)
+- OLD (portfolio resume.html line 203-213): Employer. Pitch decks and investor narratives that helped startups raise from seed to Series A+; turned complex financial data into stories investors acted on.
+- OLD: Authored 70–100-page briefs trusted by government and M&A firms on international projects; investor updates, newsletters and financial reports that kept stakeholders trusting the process.
+- OLD: Investor letters for M&A transactions and energy-project mezzanine financing, plus freelance writing across the Steinbeis network in Germany.
+- Relevance to Toloka: direct proof of "sell to sophisticated multi-party decision-makers (investors, boards, LPs, M&A counsel)" — the same negotiation-range requirement as the posting. Do NOT drop this role from the CV.
+
+## Client-outcome depth (from PERSONAL_CAREER_STRATEGY.md — the real work behind each engagement)
+- Valley (LinkedIn-automation SaaS): redesigned onboarding over 30 days; activation went from ~50% → ~72%. ($15K activation sprint.)
+- Scale Insights: identified a $2.5M opportunity in "stalled starters" — the users who activated but never hit the value moment.
+- FormDR (healthcare SaaS): redesigned the demo flow; close rate improved ~15% → ~38%; 50+ onboarding modals deployed.
+- Timelines AI: integration optimization credited with a ~$100K ARR boost.
+- HackingHR: interim CTO + growth — fixed a false revenue discrepancy (two systems disagreed, company was chasing a revenue problem that wasn't real); corrected an engagement metric counting automation as humans; cut churn 30% with a ranked model; 800K → 1M+ LinkedIn; email opens 18% → 35–50%; AWS −30%; $300K sponsorship. Founder (Enrique) will vouch.
+- Net Atelier: investor-side rescue — prior devs deleted the codebase at end of runway; nobody knew where to start; directed the team to a compelling MVP that soft-launched with a competitive feature set; board deck (GTM strategy, three-scenario financial model, competitor teardown); 30 claims checked, 6 corrected before the board saw it; model within 8% of industry benchmarks.
 
 ## Toloka role baseline (verified Greenhouse API 2026-09-23)
 - Title: Freelance Data Partnerships Lead; JID 4969089101; contract (B2B); 40h/week; location: European Union, Serbia, Georgia; fully remote.

@@ -8,12 +8,12 @@ Closes unfamiliar B2B offers and builds the acquisition motion around them. Pers
 
 ## Experience
 
-### Head of Product Marketing & AI — Queue (product + agency, venture-backed), 2022–present
+### Head of Product Marketing & AI — Queue (product + agency, venture-backed), 2022–2025
 - **Re-signed monday.com multiple times**, expanded into its developer-platform launch, and held the account through POC changes and internal reshuffles — a durable, growing client rather than a one-off win. Other clients: Guardio (1.5M+ users), CirclesUp, 8fig, thirdweb, NewDayUSA.
 - **Built and sold AI products** — AI voice interviews that turn experts into thought-leadership content, and a LinkedIn audience-growth product (with venture studio 25 Madison) — then carried the promise through delivery and customer success.
 - **Personally sold and closed most $15K-$30K engagements**, and worked in the core team on the broader $100K/month deal. Ran product and sales on the product side, the content team on the agency side.
 
-### Growth & Sales — Flow (theuserflow.co), 2024–present
+### Growth & Sales — Flow (theuserflow.co), 2025–2026
 - **Turn an initial commercial conversation into signed, delivered work** in a two-to-three-person team: personally sell and close $16K-$35K engagements from offer through delivery and customer success, adapting the case from a one-call founder to a committee or board and carrying it through legal and procurement.
 
 Engagements under Flow:
@@ -29,7 +29,7 @@ Engagements under Flow:
 
 ## Experience (continued)
 
-### Head of Growth & Interim CTO — HackingHR, 2024–2025
+### Head of Growth & Interim CTO — HackingHR, 2025
 - **Took a top-five community to the #1 fastest-growing HR community on LinkedIn**: 800K to 1M+ followers, email opens 18% to 35-50%, a redesigned course platform, and $300K in sponsorship revenue.
 - **Rebuilt the operating backbone beneath the growth**: modernized the stack, backend and AI infrastructure for stability and uptime, cut AWS spend 30% while improving reliability, and cut churn 30% with a ranked model. Founder Enrique will vouch.
 
@@ -45,6 +45,7 @@ Engagements under Flow:
 - **Modernized a 100+ year-old retailer without stopping trade or laying anyone off**, delivering 20% revenue growth while a 30-person team retrained in step with the migration to new ERP, inventory and CRM systems on AWS.
 
 ## AI, data & regulatory fluency
+- **Tasq is robotics**: I run GTM, AEO/GEO/SEO and AI-search for Tasq AI — a physical-AI and robotics-data company — writing and shipping research-backed content on robot training-data pipelines and edge cases, with claims traced to primary sources. Directly relevant to Toloka's CV/robotics dataset business.
 - **Working knowledge of ML and computer-vision/robotics pipelines** from an MSc in Big Data & Business Analytics — enough to explain the business use, data flow and constraints of a data partnership honestly.
 - **Ran a four-brand AI-search programme from an honest 0-of-57 baseline** (buyer questions citing the brand) to measurable gains — three client articles now rank #1.
 
